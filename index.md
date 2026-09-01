@@ -49,7 +49,7 @@ touch compuerta_or.vhd
 touch compuerta_or_tb.vhd
 ```
 ## Código de Ejemplo: Compuerta OR
-Copia y pega este código en tu entorno de desarrollo (como Quartus o Vivado):
+Copia y pega este código en tu entorno de desarrollo
 
 ```vhdl
 library IEEE;
@@ -97,7 +97,7 @@ BEGIN
 
 END Smd;
 ```
-## ejemplo de una tabla de verdad
+## Ejemplo de una tabla de verdad
 ```vhdl
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
@@ -124,7 +124,7 @@ ARCHITECTURE smd OF tabla IS
 END smd;
 ```
 
-## creamos el testbench
+## Creamos el testbench
 ```vhdl
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
@@ -215,7 +215,7 @@ BEGIN
 END quetancaliente;
 ```
 
-## ejemplo de case
+## Ejemplo de case
 ```vhdl
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
@@ -241,7 +241,7 @@ BEGIN
 END copia;
 ```
 
-## ejemplo de una maquina traga monedas
+## Ejemplo de una maquina traga monedas
 ```vhdl
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
